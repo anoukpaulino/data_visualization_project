@@ -1,1 +1,2 @@
-# data_visualization_project
+# Data Visualization Project
+Ecrire un truc intelligent ici :)
