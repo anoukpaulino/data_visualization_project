@@ -62,7 +62,7 @@ if __name__ == "__main__":
         ]
     )
 
-    stage.show()
+    # stage.show()
 
     # bar charts with each stage independent and in descending order of emitting entity
     """
@@ -76,4 +76,3 @@ if __name__ == "__main__":
     descending_bar_plot(carbon_by_stage, 'food_emissions_losses')
     """
     # --> the most important emission stage is what they call Farm emissions, 2nd is food losses, 3rd is animal feed
-
