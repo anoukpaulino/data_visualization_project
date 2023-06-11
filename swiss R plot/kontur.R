@@ -14,10 +14,10 @@ library(colorspace)
 #install_github("tylermorganwall/rayrender")
 
 # load kontur data (switzerland only)
-data <- st_read("kontur_population_CH_20220630.gpkg")
+data <- st_read("../data/map/swiss_border/kontur_population_CH_20220630.gpkg")
 
 # load swiss map
-map <- st_read("switzerland-detailed-boundary_1043.geojson") |>
+map <- st_read("../data/map/swiss_border/switzerland-detailed-boundary_1043.geojson") |>
   st_transform(st_crs(data))
 
 
