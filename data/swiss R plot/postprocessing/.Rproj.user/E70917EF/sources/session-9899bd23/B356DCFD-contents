@@ -1,0 +1,6 @@
+library(magick)
+
+img <- image_read("../images/final_plot.png")
+
+img |>
+  image_annotate("Population Switzerland")
